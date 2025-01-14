@@ -1,0 +1,385 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Exo63_2",
+            "request": "launch",
+            "mainClass": "Exo63_2",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo63_1",
+            "request": "launch",
+            "mainClass": "Exo63_1",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo62_2",
+            "request": "launch",
+            "mainClass": "Exo62_2",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo62_1",
+            "request": "launch",
+            "mainClass": "Exo62_1",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo61b",
+            "request": "launch",
+            "mainClass": "Exo61b",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo61",
+            "request": "launch",
+            "mainClass": "Exo61",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo52",
+            "request": "launch",
+            "mainClass": "Exo52",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "ExoJalon",
+            "request": "launch",
+            "mainClass": "ExoJalon",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo38",
+            "request": "launch",
+            "mainClass": "Exo38",
+            "projectName": "ExoKit_c7c2be36"
+        },
+        {
+            "type": "java",
+            "name": "Exo37",
+            "request": "launch",
+            "mainClass": "Exo37",
+            "projectName": "ExoKit_c7c2be36"
+        },
+        {
+            "type": "java",
+            "name": "Exo27",
+            "request": "launch",
+            "mainClass": "Exo27",
+            "projectName": "ExoKit_c7c2be36"
+        },
+        {
+            "type": "java",
+            "name": "Exo50a",
+            "request": "launch",
+            "mainClass": "Exo50a",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo50c",
+            "request": "launch",
+            "mainClass": "Exo50c",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo50b",
+            "request": "launch",
+            "mainClass": "Exo50b",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo51",
+            "request": "launch",
+            "mainClass": "Exo51",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo44",
+            "request": "launch",
+            "mainClass": "Exo44",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo49",
+            "request": "launch",
+            "mainClass": "Exo49",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Exo11",
+            "request": "launch",
+            "mainClass": "Exo11",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo12",
+            "request": "launch",
+            "mainClass": "Exo12",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo13",
+            "request": "launch",
+            "mainClass": "Exo13",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo14",
+            "request": "launch",
+            "mainClass": "Exo14",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo15",
+            "request": "launch",
+            "mainClass": "Exo15",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo16",
+            "request": "launch",
+            "mainClass": "Exo16",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo21",
+            "request": "launch",
+            "mainClass": "Exo21",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo22",
+            "request": "launch",
+            "mainClass": "Exo22",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo23",
+            "request": "launch",
+            "mainClass": "Exo23",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo24",
+            "request": "launch",
+            "mainClass": "Exo24",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo25",
+            "request": "launch",
+            "mainClass": "Exo25",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo26",
+            "request": "launch",
+            "mainClass": "Exo26",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo27",
+            "request": "launch",
+            "mainClass": "Exo27",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo27b",
+            "request": "launch",
+            "mainClass": "Exo27b",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo27c",
+            "request": "launch",
+            "mainClass": "Exo27c",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo28",
+            "request": "launch",
+            "mainClass": "Exo28",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo29",
+            "request": "launch",
+            "mainClass": "Exo29",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo31",
+            "request": "launch",
+            "mainClass": "Exo31",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo32",
+            "request": "launch",
+            "mainClass": "Exo32",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo33",
+            "request": "launch",
+            "mainClass": "Exo33",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo33b",
+            "request": "launch",
+            "mainClass": "Exo33b",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo34",
+            "request": "launch",
+            "mainClass": "Exo34",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo35",
+            "request": "launch",
+            "mainClass": "Exo35",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo36",
+            "request": "launch",
+            "mainClass": "Exo36",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo37",
+            "request": "launch",
+            "mainClass": "Exo37",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo38",
+            "request": "launch",
+            "mainClass": "Exo38",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo39",
+            "request": "launch",
+            "mainClass": "Exo39",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo41",
+            "request": "launch",
+            "mainClass": "Exo41",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo42",
+            "request": "launch",
+            "mainClass": "Exo42",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo43",
+            "request": "launch",
+            "mainClass": "Exo43",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo45",
+            "request": "launch",
+            "mainClass": "Exo45",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo46",
+            "request": "launch",
+            "mainClass": "Exo46",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo47",
+            "request": "launch",
+            "mainClass": "Exo47",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "Exo48",
+            "request": "launch",
+            "mainClass": "Exo48",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "ExoM",
+            "request": "launch",
+            "mainClass": "ExoM",
+            "projectName": "ExoKit_bc484cd0"
+        },
+        {
+            "type": "java",
+            "name": "exotest",
+            "request": "launch",
+            "mainClass": "exotest",
+            "projectName": "ExoKit_bc484cd0"
+        }
+    ]
+}
