@@ -3,7 +3,7 @@ public class Bouteille {
     private boolean estOuvert;
     private float contenanceEnMl; 
     private float contenuEnPourcentage;
-
+//
     //Constructeur par défaut 
     public Bouteille(){
     }
