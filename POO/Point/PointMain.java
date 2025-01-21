@@ -18,6 +18,14 @@ public class PointMain {
     
     System.out.println(p2.toString());
 
+    p2.symAbscisse();
+
+    System.out.println(p2.toString());
+
+    p2.symOrigine();
+
+    System.out.println(p2.toString());
+
     p2.permutation();
 
     System.out.println(p2.toString());

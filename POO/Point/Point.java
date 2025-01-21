@@ -16,6 +16,12 @@ public class Point {
         this.ordonnee = ordonnee;
     }
 
+    //Constructeur par clonage 
+    public Point (Point p2){
+        this.abscisse = p2.abscisse;
+        this.ordonnee = p2.ordonnee;
+    }
+
 
     //Opérations
 
@@ -25,23 +31,37 @@ public class Point {
         return result;
     }
 
+        //modifier coordonnees
+    public void change(double changeAbs, double changeOrd){
+        this.abscisse = changeAbs;
+        this.ordonnee = changeOrd;
+    }
 
 
         //symetrie par rapport à l'axe des ordonnées 
     public void symOrdonnee(){
-        this.abscisse = abscisse * (-1);
+        this.abscisse = this.abscisse * (-1);
     }
 
 
         //symetrie par rapport à l'axe des abscisses
     public void symAbscisse(){
-        this.ordonnee = ordonnee * (-1);
+        this.ordonnee = this.ordonnee * (-1);
+            //autre synthaxe
+            //this.ordonnee *= -1;
     }
 
         //symétrie par rapport à l'origine 
     public void symOrigine(){
-        this.abscisse = abscisse * (-1);
-        this.ordonnee = ordonnee * (-1);
+        this.abscisse = this.abscisse * (-1);
+        this.ordonnee = this.ordonnee * (-1);
+        System.out.println("Apres la symétrie par rapport à l'origine :");
+        
+            /*
+            autre synthaxe en faisant appel à la fonction
+            this.symOrdonnee();
+            this.symAbscisse();
+            */
     }
 
         //permuter les coordonnées 
