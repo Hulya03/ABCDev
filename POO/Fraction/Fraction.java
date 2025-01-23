@@ -59,12 +59,20 @@ public class Fraction {
 
     }
 
+    //try and catch à revoir
+
     // Méthode qui permet d'écrire l'inverse
     public void inverse() {
+
+        try {
         int boite;
         boite = this.numerateur;
         this.numerateur = this.denominateur;
         this.denominateur = boite;
+        } catch (Exception e) {
+            System.out.println("Attention ! on ne peut pas diviser par zéro");
+        }
+
     }
 
     // Méthode qui permet de savoir si une fraction est supérieure à une autre
@@ -127,15 +135,40 @@ public class Fraction {
 
     //Méthode qui permet d'additionner 
     public void plus(Fraction fractionAAdditionner){
+
+        
         //mutliplication de la première fraction avec le dénominateur de la fractionAAdditionner
         this.numerateur *= fractionAAdditionner.denominateur;
         this.denominateur *= fractionAAdditionner.denominateur;
-        //mutliplication de la fractionAAdditionner par le dénominateur de la première fraction
-        fractionAAdditionner.numerateur *= this.denominateur;
-        //addition des deux numérateurs
+        //mutliplication de la fractionAAdditionner par le dénominateur de  la première fraction
+        fractionAAdditionner.numerateur *= fractionAAdditionner.denominateur;
+             //addition des deux numérateurs
         this.numerateur = this.numerateur + fractionAAdditionner.numerateur;
+    }
 
 
+    //Méthode qui permet de soustraire 
+    public void moins(Fraction fractionAAdditionner){
+        //mutliplication de la première fraction avec le dénominateur de la fractionAAdditionner
+        this.numerateur *= fractionAAdditionner.denominateur;
+        this.denominateur *= fractionAAdditionner.denominateur;
+        //mutliplication de la fractionAAdditionner par le dénominateur de  la première fraction
+        fractionAAdditionner.numerateur *= fractionAAdditionner.denominateur;
+        //addition des deux numérateurs
+        this.numerateur = this.numerateur - fractionAAdditionner.numerateur;
+    }
+
+    //Méthode qui multiplie deux fractions 
+    public void multiplie(Fraction fractionAMultiplier){
+        this.numerateur = this.numerateur * fractionAMultiplier.numerateur;
+        this.denominateur = this.denominateur * fractionAMultiplier.denominateur; 
+    }
+
+
+    //Méthode pour diviser deux fractions
+    public void divise(Fraction fractionADiviser){
+        fractionADiviser.inverse();
+        this.multiplie(fractionADiviser);
 
     }
 
