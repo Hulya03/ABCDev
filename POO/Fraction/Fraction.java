@@ -66,9 +66,11 @@ public class Fraction {
 
         try {
         int boite;
+        int test;
         boite = this.numerateur;
         this.numerateur = this.denominateur;
         this.denominateur = boite;
+        test = this.numerateur / this.denominateur;
         } catch (Exception e) {
             System.out.println("Attention ! on ne peut pas diviser par zéro");
         }
