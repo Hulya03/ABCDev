@@ -1,4 +1,4 @@
-public class CompteBancaire {
+public class CompteBancaire2 {
  
     //Attributs
     private int numeroCompte;
@@ -8,12 +8,12 @@ public class CompteBancaire {
  
  
     //Constructeur par défaut
-    public CompteBancaire() {
+    public CompteBancaire2() {
  
     }
    
     //Constructeur classique
-    public CompteBancaire(int numeroCompte, String nomClient, double solde, double montantDecouvertAutorise){
+    public CompteBancaire2(int numeroCompte, String nomClient, double solde, double montantDecouvertAutorise){
         this.numeroCompte = numeroCompte;
         this.nomClient = nomClient;
         this.solde = solde;
@@ -22,7 +22,7 @@ public class CompteBancaire {
     }
 
     // Constructeur par Clonage
-    public CompteBancaire (CompteBancaire compteACloner){
+    public CompteBancaire2 (CompteBancaire2 compteACloner){
         numeroCompte = compteACloner.numeroCompte;
         nomClient = compteACloner.nomClient;
         solde = compteACloner.solde;
@@ -39,6 +39,22 @@ public class CompteBancaire {
  
     // Méthodes
  
+    //getter qui retourne le solde
+    public double getsolde(){
+        return this.solde;
+    }
+
+    //getter qui retourne le numéro de compte
+    public int getnumeroCompte() {
+        return this.numeroCompte;
+    }
+
+    //getter qui retourne le montant de decouvert autorisé
+    public double getMontantDecouvertAutorise() {
+        return this.montantDecouvertAutorise;
+    }
+
+
     public void crediter(double montantACrediter){
         System.out.println( "Le compte de " + this.nomClient + " a un solde de : " + this.solde) ;
         this.solde =+ montantACrediter;
@@ -57,7 +73,7 @@ public class CompteBancaire {
  
  
         //this.debit   (on fait le débit dans le "this", si on met c1.debit, on fait un débit du compte c1)
-    public boolean transferer(CompteBancaire compteBeneficiaire, double montantATransferer){
+    public boolean transferer(CompteBancaire2 compteBeneficiaire, double montantATransferer){
         boolean result;
         result = this.debiter(montantATransferer);
         if (result){
@@ -68,7 +84,7 @@ public class CompteBancaire {
         return result;
     }
  
-    public boolean comparer(CompteBancaire compte) {
+    public boolean comparer(CompteBancaire2 compte) {
         if (this.solde > compte.solde){
             System.out.println("Le solde de " + this.nomClient + " est supérieur au solde du compte de " + compte.nomClient );
             return true;

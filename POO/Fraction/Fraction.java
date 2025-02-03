@@ -40,6 +40,7 @@ public class Fraction {
         String result;
         result = this.numerateur + "/" + this.denominateur;
         if (this.denominateur == 1) {
+            //Integer.toString = permet d'afficher des int dans string 
             result = Integer.toString(this.numerateur);
         }
         if (this.numerateur == 0) {
@@ -58,8 +59,6 @@ public class Fraction {
         }
 
     }
-
-    //try and catch à revoir
 
     // Méthode qui permet d'écrire l'inverse
     public void inverse() {
